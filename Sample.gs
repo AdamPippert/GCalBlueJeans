@@ -32,3 +32,12 @@ function listLabels() {
   }
 }
 // [END gmail_quickstart]
+
+
+// [START gcal_makemeeting]
+/**
+ * Creates a meeting from an email forwarded to me with a [SetMeeting] filter flag
+ */
+function makeMeeting()
+  var meetingTitle = /* Subject of incoming email here */
+  var meetingObj = Calendar.createEvent
